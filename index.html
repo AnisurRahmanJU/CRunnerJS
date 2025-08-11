@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>C কোড রানার (JS সিমুলেশন)</title>
+  <title>C Code RunnerJS</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet" />
@@ -20,7 +20,7 @@
 </head>
 <body>
   <div class="container mt-5 shadow">
-    <h2 class="text-center mb-4">C কোড রানার (JS সিমুলেশন)</h2>
+    <h2 class="text-center mb-4">C Code RunnerJS</h2>
 
     <!-- Hidden textarea for CodeMirror -->
     <textarea id="code" spellcheck="false" style="display:none;">
@@ -78,10 +78,8 @@ int main() {
 
     <div class="d-flex my-3 justify-content-center gap-3">
       <button onclick="runCode()" class="btn btn-success">রান করুন</button>
-      <button onclick="clearOutput()" class="btn btn-danger">আউটপুট মুছুন</button>
     </div>
-
-    <h4>আউটপুট:</h4>
+    
     <pre id="output"></pre>
   </div>
 
