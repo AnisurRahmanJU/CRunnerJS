@@ -1,0 +1,77 @@
+body {
+  font-family: 'Noto Sans Bengali', sans-serif, monospace;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #1b263b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h2, h4 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+#editor {
+  height: 400px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  font-size: 14px;
+}
+
+pre#output {
+  background-color: #1e293b;
+  color: #a0f0a0;
+  padding: 15px;
+  min-height: 180px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.d-flex {
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-success {
+  background-color: #0ea5e9;
+  border-color: #0ea5e9;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border-color: #ef4444;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #0284c7;
+  border-color: #0284c7;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+  border-color: #dc2626;
+}
+
+@media screen and (max-width: 576px) {
+  #editor {
+    height: 300px;
+  }
+}
