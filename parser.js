@@ -3,9 +3,11 @@ const editor = CodeMirror(document.getElementById('editor'), {
   value: `#include <stdio.h>
 
 int main() {
-    int a = 5;
-    int b = 10;
-    printf("Sum: %d\\n", a + b);
+    int a = 0;
+    for(a = 1; a <= 10; a++)
+    {
+        printf("%d", a);
+    }
     return 0;
 }
 `,
