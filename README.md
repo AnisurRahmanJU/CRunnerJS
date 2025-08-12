@@ -22,6 +22,7 @@ int main() {
 }
 ```
 
+> float and double datatype does not work, it is progressing.
 ---
 
 ###  2. **Conditional Statements (if, else if, else)**
@@ -151,7 +152,7 @@ int main() {
 ---
 
 ###  7. **Factorial Function Only**
-> Normal function not work sometimes, it is progressing.
+> Normal function does not work sometimes, it is progressing.
 
 ```c
 // factorial_function.c
