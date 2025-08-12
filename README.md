@@ -1,6 +1,6 @@
 # CRunnerJS
 
-> It is not a real compiler, it has more limitation.
+> It is not a real compiler, it has some limitations.
 ---
 
 ###  1. **Variable Declaration and Usage**
@@ -284,7 +284,5 @@ int main() {
     return 0;
 }
 ```
-
-> It is not real compiler, it has more limitation.
 
 
