@@ -1,6 +1,6 @@
 /* Dark Theme Styles */
-*body{
-  background-color: #101f33; /* Dark background */
+body{
+  background-color: #12386b; /* Dark background */
   color: white; /* Light text */
   font-family: "JetBrains Mono", monospace;
 }
@@ -32,6 +32,7 @@ pre#output {
   white-space: pre-wrap;
   font-family: "JetBrains Mono", monospace;
 }
+
 
 
 
