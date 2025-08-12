@@ -27,11 +27,12 @@ body{
 }
 
 pre#output {
-  height: 200px;
+  height: 150px;
   overflow-y: auto;
   white-space: pre-wrap;
   font-family: "JetBrains Mono", monospace;
 }
+
 
 
 
