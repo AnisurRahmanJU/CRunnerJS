@@ -6,7 +6,7 @@
 }
 
 #editor, pre#output {
-  width: 75%;            /* 75% width */
+  width:80%;            /* 75% width */
   margin: 10px auto;     /* center horizontally with vertical margin */
   box-sizing: border-box;
   border-radius: 6px;
@@ -32,5 +32,6 @@ pre#output {
   white-space: pre-wrap;
   font-family: "JetBrains Mono", monospace;
 }
+
 
 
