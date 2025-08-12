@@ -11,12 +11,10 @@
 
 int main() {
     int age = 25;
-    float height = 5.9;
-    char grade = 'A';
+    char letter = 'A';
 
     printf("Age: %d\n", age);
-    printf("Height: %.1f\n", height);
-    printf("Grade: %c\n", grade);
+    printf("Grade: %c\n", letter);
 
     return 0;
 }
@@ -46,7 +44,7 @@ int main() {
     return 0;
 }
 ```
-###  3. **Switch Case Only**
+###  3. **Switch Case Statement**
 
 ```c
 // switch_case.c
