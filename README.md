@@ -1,7 +1,20 @@
 # CRunnerJS
 
 > It is not a real compiler, it has some limitations.
----
+
+### Syntax
+```c
+#include <stdio.h>
+
+int main() {
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    
+    printf("You entered: %d\n", number);
+    return 0;
+}
+```
 
 ###  1. **Variable Declaration and Usage**
 
