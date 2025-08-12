@@ -1,6 +1,6 @@
 # CRunnerJS
 
-###  **It is not Real Compiler, it has more Limitation.**
+> It is not a real compiler, it has more limitation.
 ---
 
 ###  1. **Variable Declaration and Usage**
@@ -12,6 +12,8 @@
 int main() {
     int age = 25;
     char letter = 'A';
+
+    // char & int only
 
     printf("Age: %d\n", age);
     printf("Grade: %c\n", letter);
@@ -149,6 +151,7 @@ int main() {
 ---
 
 ###  7. **Factorial Function Only**
+> Normal function not work sometimes, it is progressing.
 
 ```c
 // factorial_function.c
@@ -164,6 +167,6 @@ int main() {
     return 0;
 }
 ```
-###  **It is not Real Compiler, it has more Limitation.**
+> It is not real compiler, it has more limitation.
 
 
