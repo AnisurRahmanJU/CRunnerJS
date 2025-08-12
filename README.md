@@ -12,17 +12,20 @@
 int main() {
     int age = 25;
     char letter = 'A';
-
-    // char & int only
+    float num1 = 5.50;
+    double num2 = 100.00;
+    char str[10] = "Anisur";
 
     printf("Age: %d\n", age);
     printf("Grade: %c\n", letter);
+    printf("Num1: %f\n", num1);
+    printf("Num2: %lf\n", num2);
+    printf("String: %s\n", str);
 
     return 0;
 }
 ```
 
-> float and double datatype does not work, it is progressing.
 ---
 
 ###  2. **Conditional Statements (if, else if, else)**
