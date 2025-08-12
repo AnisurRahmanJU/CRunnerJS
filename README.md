@@ -16,7 +16,7 @@ int main() {
 }
 ```
 
-###  1. **Variable Declaration and Usage**
+###  1. **Variable and Datatype**
 
 ```c
 // variable_example.c
