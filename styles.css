@@ -1,5 +1,5 @@
 /* Dark Theme Styles */
-body.dark-mode {
+*body{
   background-color: #101f33; /* Dark background */
   color: white; /* Light text */
   font-family: "JetBrains Mono", monospace;
@@ -32,4 +32,5 @@ pre#output {
   white-space: pre-wrap;
   font-family: "JetBrains Mono", monospace;
 }
+
 
