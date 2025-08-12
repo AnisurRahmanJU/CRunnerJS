@@ -2,7 +2,7 @@
 
 > It is not a real compiler, it has some limitations.
 
-### Syntax
+### Syntax of C 
 ```c
 #include <stdio.h>
 
@@ -16,7 +16,7 @@ int main() {
 }
 ```
 
-###  1. **Variable and Datatype**
+###  1. **Variable Declaration and Datatype**
 
 ```c
 // variable_example.c
@@ -148,7 +148,7 @@ int main() {
 
 ---
 
-###  5. **Array Example**
+###  5. **Array in C**
 
 ```c
 // array_example.c
@@ -168,7 +168,7 @@ int main() {
 
 ---
 
-###  6. **String Example**
+###  6. **String in C**
 
 ```c
 // string_example.c
