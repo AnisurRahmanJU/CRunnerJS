@@ -1,0 +1,25 @@
+{
+  "name": "CRunnerJS",
+  "version": "1.0.0",
+  "description": "CRunnerJS is a browser-based C code runner using JavaScript. It is not a real compiler and has some limitations.",
+  "main": "parser.js",
+  "page": "index.html",
+  "syntax highlighter": "CodeMirror 5",
+  "scripts": {
+    "start": "convert",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "C",
+    "runner",
+    "JavaScript",
+    "browser",
+    "compiler",
+    "interpreter"
+  ],
+  "author": "Md. Anisur Rahman",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
