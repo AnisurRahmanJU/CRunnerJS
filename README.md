@@ -160,16 +160,37 @@ int main() {
 // function_sum.c
 #include <stdio.h>
 
-function sum(x, y) {
+int sum(x, y) {
     int c;
     c = x + y;
     return c;
 }
+int sub(x, y) {
+    int c;
+    c = x - y;
+    return c;
+}
+int multi(x, y) {
+    int c;
+    c = x * y;
+    return c;
+}
+int div(x, y) {
+    int c;
+    c = x / y;
+    return c;
+}
 int main()
 {
-    int a = 3, b = 2;
+    int a = 10, b = 5;
     int c = sum(a, b);
+    int d = sub(a, b);
+    int e = multi(a, b);
+    int f = div(a, b);
     printf("Sum of %d and %d : %d", a, b, c);
+    printf("Sub of %d and %d : %d", a, b, d);
+    printf("Multiply of %d and %d : %d", a, b, e);
+    printf("Division of %d and %d : %d", a, b, f);
 
     return 0;
 }
