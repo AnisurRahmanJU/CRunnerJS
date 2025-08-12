@@ -154,9 +154,27 @@ int main() {
 
 ---
 
-###  7. **Factorial Function Only**
-> Normal function does not work sometimes, it is progressing.
+###  7. **Function Statement**
 
+```c
+// function_sum.c
+#include <stdio.h>
+
+function sum(x, y) {
+    int c;
+    c = x + y;
+    return c;
+}
+int main()
+{
+    int a = 3, b = 2;
+    int c = sum(a, b);
+    printf("Sum of %d and %d : %d", a, b, c);
+
+    return 0;
+}
+```
+**Recursive Factorial**
 ```c
 // factorial_function.c
 #include <stdio.h>
