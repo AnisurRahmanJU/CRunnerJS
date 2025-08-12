@@ -210,6 +210,36 @@ int main() {
     return 0;
 }
 ```
+**Fibonacci with Loop**
+```c
+#include <stdio.h>
+
+void fibonacci(int n) {
+    int first = 0, second = 1, next;
+
+    // Print the first two Fibonacci numbers
+    printf("Fibonacci series 1 to %dth term:\n", n);
+    for (int i = 1; i <= n; i++) {
+        if (i == 1) {
+            printf("%d ", first);
+        } else if (i == 2) {
+            printf("%d ", second);
+        } else {
+            next = first + second;
+            first = second;
+            second = next;
+            printf("%d ", next);
+        }
+    }
+    printf("\n");
+}
+
+int main() {
+    fibonacci(10); 
+    return 0;
+}
+```
+
 > It is not real compiler, it has more limitation.
 
 
