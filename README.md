@@ -142,7 +142,7 @@ int main() {
     strcat(str1, str2);
 
     printf("Concatenated string: %s\n", str1);
-    printf("Length: %lu\n", strlen(str1));
+    printf("Length: %d\n", strlen(str1));
 
     return 0;
 }
