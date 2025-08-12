@@ -13,7 +13,7 @@ int main() {
     int age = 25;
     char letter = 'A';
     float num1 = 5.50;
-    double num2 = 100.00;
+    double num2 = 100.12345;
     char str[10] = "Anisur";
 
     printf("Age: %d\n", age);
